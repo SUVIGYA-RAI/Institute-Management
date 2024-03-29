@@ -1,0 +1,363 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Class Timetable</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>08:00 - 09:00</td>
+            <td>Mathematics</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>History</td>
+            <td>Geography</td>
+        </tr>
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Physical Education</td>
+            <td>Mathematics</td>
+            <td>Biology</td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td>Geography</td>
+            <td>History</td>
+            <td>Computer Science</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+        </tr>
+        <!-- Add more rows for additional time slots -->
+    <!-- </table>
+
+    <h2>Class Schedule</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>Time</th>
+            <th>Subject</th>
+            <th>Teacher</th>
+        </tr>
+        <tr>
+            <td>Grade 8</td>
+            <td>08:00 - 09:00</td>
+            <td>Mathematics</td>
+            <td>Mr. Smith</td>
+        </tr>
+        <tr>
+            <td>Grade 9</td>
+            <td>09:00 - 10:00</td>
+            <td>Science</td>
+            <td>Ms. Johnson</td>
+        </tr>
+        <tr>
+            <td>Grade 10</td>
+            <td>10:00 - 11:00</td>
+            <td>English</td>
+            <td>Ms. Roberts</td>
+        </tr>
+        <!-- Add more rows for additional classes and schedules -->
+    <!-- </table>
+</div>
+
+</body>
+</html>
+ -->
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        .time {
+            font-weight: bold;
+        }
+        .empty-slot {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Class Timetable</h1>
+</header>
+
+<div class="container">
+    <h2>Monday</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Course</th>
+            <th>Room</th>
+            <th>Teacher Name</th>
+        </tr>
+        <tr>
+            <td class="time">9:00 - 10:00</td>
+            <td>Mathematics</td>
+            <td>Room 101</td>
+            <td>Dr.Kunal</td>
+        </tr>
+        <tr>
+            <td class="time">10:00 - 11:00</td>
+            <td>Physics</td>
+            <td>Room 102</td>
+            <td>Dr.Nikita</td>
+        </tr>
+        <tr>
+            <td class="time">11:00 - 12:00</td>
+            <td>Mechanics</td>
+            <td>Room 313</td>
+            <td>Dr.Sagar</td>
+        </tr>
+        <tr>
+            <td class="time">12:00 - 01:00</td>
+            <td>DBMS</td>s</td>
+            <td>Room 405</td>
+            <td>Dr.Rohit</td>
+        </tr>
+    </table>
+
+    <h2>Tuesday</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Course</th>
+            <th>Room</th>
+            <th>Teacher Name</th>
+        </tr>
+        <tr>
+            <td class="time">9:00 - 10:00</td>
+            <td>Mathematics</td>
+            <td>Room 401</td>
+            <td>Dr.Kunal</td>
+        </tr>
+        <tr>
+            <td class="time">10:00 - 11:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>David</td>
+        </tr>
+        <tr>
+            <td class="time">11:00 - 12:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>David</td>
+        </tr>
+        <tr>
+            <td class="time">12:00 - 01:00</td>
+            <td>Chemistry</td>s</td>
+            <td>Room 105</td>
+            <td>Dr.Nikhil</td>
+        </tr>
+    </table>
+    <h2>Wednesday</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Course</th>
+            <th>Room</th>
+            <th>Teacher Name</th>
+        </tr>
+        <tr>
+            <td class="time">9:00 - 10:00</td>
+            <td>Electrical</td>
+            <td>Room 501</td>
+            <td>Dr.Akhil</td>
+        </tr>
+        <tr>
+            <td class="time">10:00 - 11:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>David</td>
+        </tr>
+        <tr>
+            <td class="time">11:00 - 12:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>David</td>
+        </tr>
+        <tr>
+            <td class="time">12:00 - 01:00</td>
+            <td>Chemistry</td>s</td>
+            <td>Room 105</td>
+            <td>Dr.Nikhil</td>
+        </tr>
+    </table>
+    <h2>Thursday</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Course</th>
+            <th>Room</th>
+            <th>Teacher Name</th>
+        </tr>
+        <tr>
+            <td class="time">9:00 - 10:00</td>
+            <td>Mathematics</td>
+            <td>Room 601</td>
+            <td>Dr.Kunal</td>
+        </tr>
+        <tr>
+            <td class="time">10:00 - 11:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>Dr.David</td>
+        </tr>
+        <tr>
+            <td class="time">11:00 - 12:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>Dr.David</td>
+        </tr>
+        <tr>
+            <td class="time">12:00 - 01:00</td>
+            <td>DBMS</td>s</td>
+            <td>Room 105</td>
+            <td>Dr.Rohit</td>
+        </tr>
+    </table>
+    <h2>Friday</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Course</th>
+            <th>Room</th>
+            <th>Teacher Name</th>
+        </tr>
+        <tr>
+            <td class="time">9:00 - 10:00</td>
+            <td>Electrical</td>
+            <td>Room 501</td>
+            <td>Dr.Akhil</td>
+        </tr>
+        <tr>
+            <td class="time">10:00 - 11:00</td>
+            <td>C Programming</td>
+            <td>Room 917</td>
+            <td>Dr.David</td>
+        </tr>
+        <tr>
+            <td class="time">11:00 - 12:00</td>
+            <td>Physics</td>
+            <td>Room 917</td>
+            <td>Dr. Nikita</td>
+        </tr>
+        <tr>
+            <td class="time">12:00 - 01:00</td>
+            <td>Chemistry</td>s</td>
+            <td>Room 105</td>
+            <td>Dr.Nikhil</td>
+        </tr>
+    </table>
+
+
+
+</div>
+
+</body>
+</html>
